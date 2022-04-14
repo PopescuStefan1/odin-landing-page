@@ -108,6 +108,8 @@ body{
     align-items: center;
     text-align: right;
     margin-left: 4em;
+    display: flex;
+    align-items: flex-end;
 }
 
 .hero-image{
