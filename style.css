@@ -1,0 +1,23 @@
+* {
+    font-family: Verdana;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+body div{
+    width: 100%;
+}
+
+.header,
+.intro,
+.footer{
+    background-color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7Eb;
+}
