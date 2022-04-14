@@ -183,9 +183,34 @@ button {
     background-color: #3882F6;
     color: #fff;
     font-size: 18px;
-    padding: 1em 2em;
+    padding: 0.5em 2em;
     font-weight: 600;
     border-radius: 12px;
+    border: none;
+}
+
+.call-to-action{
+    display: flex;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-banner{
+    background-color: #3882F6;
+    flex: 1 1 auto;
+    padding: 4em 8em;
+    border-radius: 12px;
+    display: flex;
+}
+
+.call-right{
+    margin-left: auto;
+}
+
+.call-button{
+    border: 2px solid #fff;
 }
 
 .footer {
